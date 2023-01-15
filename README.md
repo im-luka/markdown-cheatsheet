@@ -5,7 +5,7 @@ You can also follow docs below:_
 
 #### ⚠️ Note
 Everything listed here is about GitHub Markdown.  
-I've also written some articles about Markdown in general with more features.  
+I've also written some articles about Markdown in general with more features that GitHub currently doesn't support.  
 
 
 ---
