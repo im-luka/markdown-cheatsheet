@@ -12,8 +12,9 @@ I've also written some articles about Markdown in general with more features.
 
 ### What is Markdown?
 Markdown is a lightweight markup language that you can use to format plain text documents.  
-Write docs for your GitHub project, edit your GitHub profile _README_ etc. You fill find it all here.  
-Let's dive into it.
+Write docs for your GitHub projects, edit your GitHub profile _README_ etc. You fill find it all here.  
+
+Let's dive into it. ⤵️
 
 #### Table of Contents
 
