@@ -1,6 +1,6 @@
 # ⬇️ The Only Markdown Cheatsheet You Need
 
-_You can find PDF & images cheatsheet. Feel free to download and use it.  
+_PDF cheatsheet also coming soon. Feel free to download and use it.  
 You can also follow docs below:_
 
 #### ⚠️ Note
