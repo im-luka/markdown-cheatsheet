@@ -28,10 +28,10 @@ Let's dive into it.
     - [Ordered List](#orderedlist)
     - [Unordered List](#unorderedlist)
     - [Mixed List](#mixedlist)
-9. [Tables](#tables)
+9. [Table](#table)
 10. [Task List](#tasklist)
 11. [Footnote](#footnote)
-12. [Heading ID](#headingid)
+12. [Jump to section](#sectionjump)
 13. [Horizontal Line](#horizontalline)
 14. [HTML](#html)
 
@@ -266,3 +266,159 @@ You can also mix both of the lists and create sublists.
    - Svelte
 
 ---
+
+<a name="table" />
+
+## Table
+Great way to display well-arranged data. Use "|" symbol to separate columns and ":" symbol to align row content.
+
+```
+| Left Align (default) | Center Align | Right Align |
+| :------------------- | :----------: | ----------: |
+| React.js             | Node.js      | MySQL       |
+| Next.js              | Express      | MongoDB     |
+| Vue.js               | Nest.js      | Redis       |
+```
+
+| Left Align (default) | Center Align | Right Align |
+| :------------------- | :----------: | ----------: |
+| React.js             | Node.js      | MySQL       |
+| Next.js              | Express      | MongoDB     |
+| Vue.js               | Nest.js      | Redis       |
+
+---
+
+<a name="tasklist" />
+
+## Task List
+Keeping track of the tasks that are done, and those that need to be done.
+
+```
+- [x] Learn Markdown
+- [ ] Learn Frontend Development
+- [ ] Learn Full Stack Development
+```
+
+- [x] Learn Markdown
+- [ ] Learn Frontend Development
+- [ ] Learn Full Stack Development
+
+---
+
+<a name="footnote" />
+
+## Footnote
+Want to describe something at the end of the file? Use footnote!
+
+```
+#### I am working on a new project. [^1]
+[^1]: Stack is: React, Typescript, Tailwind CSS  
+
+Project is about music & movies.
+```
+
+#### I am working on a new project. [^1]
+[^1]: Stack is: React, Typescript, Tailwind CSS  
+
+Project is about music & movies.
+
+##### Hope you will like it. [^see]
+[^see]: Loading... ⌛️
+
+---
+
+<a name="sectionjump" />
+
+## Jump to section
+You can give ID to a section so that you can jump straight to that part of the file from wherever you are.
+
+```
+[Jump to a section with custom ID](#some-id)
+
+...
+
+<a name="some-id" />
+
+##### Section with some ID
+```
+
+[Jump to a section with custom ID](#some-id)
+
+---
+
+<a name="horizontalline" />
+
+## Horizontal Line
+You can use asterisks, hyphens or underlines (*, -, _) to create horizontal line.  
+The only rule is that you must include at least three chars of the symbol.
+
+```
+First Horizontal Line
+
+***
+
+Second One
+
+-----
+
+Third
+
+_________
+```
+
+First Horizontal Line
+
+***
+
+Second One
+
+-----
+
+Third
+
+_________
+
+
+---
+
+<a name="html" />
+
+## HTML
+You can also use raw HTML in your Markdown file. Most of the times that will work well, but sometimes you can experience some differences that you are not used to when working with standard HTML. Using CSS will not work.
+
+```
+<h1>This is a heading</h1>
+<p>Paragraph...</p>
+
+<hr />
+
+<img src="auto-generated-path-to-file-when-you-upload-image" width="200">
+<a href="https://github.com/im-luka">Follow me on GitHub</a>
+
+<br />
+<br />
+
+<p>Quick hack for <strong><em>centering image</em></strong>?</p>
+<p align="center"><img src="auto-generated-path-to-file-when-you-upload-image" /></p>
+```
+
+
+<h1>This is a heading</h1>
+<p>Paragraph...</p>
+
+<hr />
+
+<img src="https://user-images.githubusercontent.com/46372998/212544874-d0654588-82f7-44f2-bbfa-2bf85fd73854.png" width="200">
+<a href="https://github.com/im-luka">Follow me on GitHub</a>
+
+<br />
+<br />
+
+<p>Quick hack for <strong><em>centering image</em></strong>?</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46372998/212544874-d0654588-82f7-44f2-bbfa-2bf85fd73854.png" width="200" /></p>
+
+---
+
+<a name="some-id" />
+
+##### Section with some ID
