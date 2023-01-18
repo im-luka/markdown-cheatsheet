@@ -7,8 +7,8 @@ You can also follow docs below:_
 Everything listed here is about GitHub Markdown.  
 I've also written some articles about Markdown in general with more features that GitHub currently doesn't support.  
 
-<a href="https://medium.com/@im-luka/the-only-markdown-cheatsheet-you-will-ever-need-a2941d008497"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
 <a href="https://dev.to/imluka/the-only-markdown-cheatsheet-you-will-ever-need-ccg"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
+<a href="https://medium.com/@im-luka/the-only-markdown-cheatsheet-you-will-ever-need-a2941d008497"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
 <a href="https://imluka.hashnode.dev/the-only-markdown-cheatsheet-you-will-ever-need"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" /></a>
 
 ---
