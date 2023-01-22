@@ -426,4 +426,3 @@ You can also use raw HTML in your Markdown file. Most of the times that will wor
 <a name="some-id" />
 
 ##### Section with some ID
-
