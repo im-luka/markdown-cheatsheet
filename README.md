@@ -108,15 +108,17 @@ Want to emphasise importance of the text? Say no more.
 > This is a blockquote.
 > Want to write on a new line with space between?
 >
-> No problem at all. 
-> PS. you can **style** your text _as you want_.
+> > And nested? No problem at all.
+> >
+> > > PS. you can **style** your text _as you want_.
 ```
 
 > This is a blockquote.
 > Want to write on a new line with space between?
 >
-> No problem at all. 
-> PS. you can **style** your text _as you want_.
+> > And nested? No problem at all.
+> >
+> > > PS. you can **style** your text _as you want_. :
 
 ---
 
@@ -170,6 +172,7 @@ You can cerate both inline and full block code snippets. You can also define pro
 
 ```
     I created `.env` file at the root.
+    Backticks inside backticks? `` `No problem.` ``
 
     ```
     {
@@ -185,6 +188,7 @@ You can cerate both inline and full block code snippets. You can also define pro
 ```
 
 I created `.env` file at the root.
+Backticks inside backticks? `` `No problem.` ``
 
 ```
 {
@@ -214,14 +218,14 @@ As you can do in HTML, Markdown allows creating of both ordered and unordered li
 2. CSS
 3. Javascript
 4. React
-5. I'm Frontend Dev now 👨🏼‍🎨
+7. I'm Frontend Dev now 👨🏼‍🎨
 ```
 
 1. HTML
 2. CSS
 3. Javascript
 4. React
-5. I'm Frontend Dev now 👨🏼‍🎨
+7. I'm Frontend Dev now 👨🏼‍🎨
 
 <a name="unorderedlist" />
 
@@ -229,14 +233,14 @@ As you can do in HTML, Markdown allows creating of both ordered and unordered li
 
 ```
 - Node.js
-- Express
-- Nest.js
++ Express
+* Nest.js
 - Learning Backend ⌛️
 ```
 
 - Node.js
-- Express
-- Nest.js
++ Express
+* Nest.js
 - Learning Backend ⌛️
 
 <a name="mixedlist" />
@@ -249,25 +253,25 @@ You can also mix both of the lists and create sublists.
 1. Learn Basics
    1. HTML
    2. CSS
-   3. Javascript
+   7. Javascript
 2. Learn One Framework
    - React 
      - Router
      - Redux
-   - Vue
-   - Svelte
+   * Vue
+   + Svelte
 ```
 
 1. Learn Basics
    1. HTML
    2. CSS
-   3. Javascript
+   7. Javascript
 2. Learn One Framework
    - React 
      - Router
      - Redux
-   - Vue
-   - Svelte
+   * Vue
+   + Svelte
 
 ---
 
@@ -319,6 +323,9 @@ Want to describe something at the end of the file? Use footnote!
 [^1]: Stack is: React, Typescript, Tailwind CSS  
 
 Project is about music & movies.
+
+##### Hope you will like it. [^see]
+[^see]: Loading... ⌛️
 ```
 
 #### I am working on a new project. [^1]
@@ -404,6 +411,13 @@ You can also use raw HTML in your Markdown file. Most of the times that will wor
 
 <p>Quick hack for <strong><em>centering image</em></strong>?</p>
 <p align="center"><img src="auto-generated-path-to-file-when-you-upload-image" /></p>
+
+<details>
+  <summary>One more quick hack? 🎭</summary>
+  
+  → Easy  
+  → And simple
+</details>
 ```
 
 
@@ -420,6 +434,13 @@ You can also use raw HTML in your Markdown file. Most of the times that will wor
 
 <p>Quick hack for <strong><em>centering image</em></strong>?</p>
 <p align="center"><img src="https://user-images.githubusercontent.com/46372998/212544874-d0654588-82f7-44f2-bbfa-2bf85fd73854.png" width="200" /></p>
+
+<details>
+  <summary>One more quick hack? 🎭</summary>
+  
+  → Easy  
+  → And simple
+</details>
 
 ---
 
