@@ -14,7 +14,7 @@ Feel free to download and use it. ✌🏼_
 #### ⚠️ Note
 GitHub specific Markdown doesn't support some of the features listed in PDF. Perhaps in the future, they might include it.  
 
-👇🏼 If you are interested in GitHub specific Markdown, please follow docs below.
+👇🏼 If you are interested in GitHub specific Markdown, follow docs below.
 
 ---
 
